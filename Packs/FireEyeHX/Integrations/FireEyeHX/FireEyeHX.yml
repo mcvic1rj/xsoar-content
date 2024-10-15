@@ -636,6 +636,26 @@ script:
       description: Agent ID
     deprecated: true
   - arguments:
+    - description: The agent ID. If the host name is not specified, the agent ID must be specified.
+      name: agentId
+    - description: The host name. If the agent ID is not specified, the host name must be specified.
+      name: hostName
+    description: Start a triage acquisition process to gather artifacts from the system disk and memory. The triage is fetched as mans file.
+    name: fireeye-hx-triage-acquisition
+    outputs:
+    - contextPath: FireEyeHX.Acquisitions.Triage._id
+      description: The triage acquisition unique ID.
+      type: Unknown
+    - contextPath: FireEyeHX.Acquisitions.Triage.state
+      description: The acquisition state.
+      type: Unknown
+    - contextPath: FireEyeHX.Acquisitions.Triage.finish_time
+      description: Time when the triage acquisition was finished.
+      type: Unknown
+    - contextPath: FireEyeHX.Acquisitions.Triage.host._id
+      description: Agent ID
+    deprecated: false
+  - arguments:
     - description: The acquisition ID.
       name: acquisitionId
       required: true

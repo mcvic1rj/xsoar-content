@@ -2168,7 +2168,93 @@ def file_acquisition():
     demisto.results(entry)
     demisto.results(fileResult('{}.zip'.format(os.path.splitext(args.get('fileName'))[0]), acquired_file))
 
+def triage_acquisition_request(agent_id):
 
+    url = f'{BASE_PATH}/hosts/{agent_id}/triages'
+
+    body = {} #Body can be empty, or contain a external request ID.
+
+    response = http_request(
+        'POST',
+        url,
+        body=body
+    )
+
+    return response.json()['data']
+
+def triage_collection_request(acquisition_id):
+
+    url = f'{BASE_PATH}/acqs/triage/{acquisition_id}.mans'
+
+    response = http_request(
+        'GET',
+        url
+    )
+
+    return response.content
+
+def triage_acquisition_information_request(acquisition_id): ##TODO
+
+    url = f'{BASE_PATH}/acqs/triage/{acquisition_id}'
+
+    response = http_request(
+        'GET',
+        url,
+        headers=GET_HEADERS
+    )
+
+    return response.json()['data']
+
+
+def triage_acquisition():
+    """
+
+    returns a triage acquisition mans file to the war room
+
+    """
+
+    args = demisto.args()
+
+    # validate the host name or agent ID was passed
+    if not args.get('hostName') and not args.get('agentId'):
+        raise ValueError('Please provide either agentId or hostName')
+
+    if args.get('hostName'):
+        args['agentId'] = get_agent_id(args['hostName'])
+
+    acquisition_info = triage_acquisition_request(
+        args['agentId']
+    )
+
+    acquisition_id = acquisition_info.get('_id')
+
+    LOG('Triage acquisition request was successful. Waiting for acquisition process to be complete.')
+    # loop to inquire acquisition state every 30 seconds
+    # break when state is complete
+    while True:
+        acquisition_info = triage_acquisition_information_request(acquisition_id) ## TODO
+        if acquisition_info.get('state') == 'COMPLETE':
+            break
+        time.sleep(30)  # pylint: disable=sleep-exists
+    LOG('Triage acquisition process has been complete. Fetching mans file.')
+
+    message = f'{args['agentId']} triage acquired successfully'
+    if acquisition_info.get('error_message'):
+        message = acquisition_info.get('error_message')
+
+    # output file and acquisition information to the war room
+    data = triage_collection_request(acquisition_id)
+    entry = {
+        'Type': entryTypes['note'],
+        'Contents': f'{message}\n triage acquisition ID: {acquisition_id}',
+        'ContentsFormat': formats['text'],
+        'EntryContext': {
+            "FireEyeHX.Acquisitions.Triage(obj._id==val._id)": acquisition_info
+        }
+    }
+    demisto.results(entry)
+    demisto.results(fileResult('agent_{}_triage_data.mans'.format(args['agentId']), data))
+    
 def data_acquisition_request(agent_id, script_name, script):
 
     url = '{}/hosts/{}/live'.format(BASE_PATH, agent_id)
