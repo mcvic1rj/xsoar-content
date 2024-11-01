@@ -818,7 +818,7 @@ class Client(BaseClient):
     HOST CONTAINMENT REQUESTS
     """
 
-    def host_containmet_request(self, agent_id: str):
+    def host_containment_request(self, agent_id: str):
 
         self._http_request(
             method="POST",
@@ -2023,7 +2023,7 @@ def host_containment_command(client: Client, args: Dict[str, Any]) -> List[Comma
         agent_id = get_agent_id_by_host_name(client, host_name)
 
     try:
-        client.host_containmet_request(agent_id)
+        client.host_containment_request(agent_id)
     except Exception as e:
         raise ValueError(e)
 

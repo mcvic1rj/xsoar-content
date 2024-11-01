@@ -493,7 +493,7 @@ def test_host_containment(mocker, demisto_args, call_count, return_mocker, expec
         auth=("userName", "password"))
 
     get_agentId = mocker.patch("FireEyeHXv2.get_agent_id_by_host_name", return_value="")
-    mocker.patch.object(client, "host_containmet_request", return_value=None)
+    mocker.patch.object(client, "host_containment_request", return_value=None)
     mocker.patch.object(client, "approve_containment_request", side_effect=return_mocker)
     mocker.patch.object(client, "get_hosts_by_agentId_request", return_value={"data": {}})
     result = host_containment_command(client, demisto_args)
