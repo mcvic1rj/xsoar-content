@@ -1,0 +1,24 @@
+{
+    "Build Status": "Done",
+    "Cat Engine Health": "OK",
+    "HttpServer Health": "OK",
+    "Number of bad requests": 0,
+    "Number of good requests": 19,
+    "Number of unauthorized accesses": 0,
+    "Number requesting bad paths": 0,
+    "Status": [
+        "Deleted category: Api_Cat_106 (name)",
+        "Database cdb1477694574.db created at 10-28-201622: 42: 54.720233 for transaction "
+    ],
+    "Total API-managed categories from last call": 10,
+    "Total IP addresses from last call": 48,
+    "Total URLs from last call": 254,
+    "Total categories from last call": 0,
+    "Total connection errors": 0,
+    "Total data fetch errors": 3,
+    "Total errors": 0,
+    "Total locked transaction errors": 0,
+    "Total non-specialized Errors": 0,
+    "Total requests received": 19,
+    "Total transaction errors": 0
+}

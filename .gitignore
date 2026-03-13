@@ -118,3 +118,7 @@ plans/
 # IDEX custom tools and rules
 .roomodes
 .roo/
+
+bin
+lib
+share

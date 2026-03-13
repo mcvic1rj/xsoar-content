@@ -1,0 +1,41 @@
+{
+    "Categories": [
+        {
+            "Category Name": "User-Defined",
+            "Category ID": 64,
+            "Category Description": "User defined categories",
+            "Category Hierarchy": 45000,
+            "Category Owner": "Forcepoint",
+            "Children": [
+                {
+                    "Category Name": "Malicious XYZ",
+                    "Category ID": 1910,
+                    "Category Description": "Malicious URLs from XYZ",
+                    "Category Hierarchy": 65535,
+                    "Category Owner": "API"
+                },
+                {
+                    "Category Name": "Malicious ABC",
+                    "Category ID": 1911,
+                    "Category Description": "Malicious URLs from ABC",
+                    "Category Hierarchy": 65535,
+                    "Category Owner": "API"
+                },
+                {
+                    "Category Name": "Malicious DEF",
+                    "Category ID": 1912,
+                    "Category Description": "Malicious URLs from DEF",
+                    "Category Hierarchy": 65535,
+                    "Category Owner": "API"
+                },
+            ]
+        },
+        {
+            "Category Name": "Nudity",
+            "Category ID": 65,
+            "Category Description": "User defined categories",
+            "Category Hierarchy": 44000,
+            "Category Owner": "Forcepoint"
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+[run]
+omit = CommonServerPython.py, conftest.py,demistomock.py,ForcepointV2_test.py
