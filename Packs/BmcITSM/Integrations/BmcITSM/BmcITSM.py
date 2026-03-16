@@ -14,25 +14,25 @@ KNOWN_ERROR = "known error"
 WORK_ORDER = "work order"
 
 SERVICE_REQUEST_CONTEXT_MAPPER = {
-    "Assigned Group":"Assigned Group", #Migrated from Common Mapper
-    "Assigned Support Company":"Assigned Support Company", #Migrated from Common Mapper
-    "Assigned Support Organization":"Assigned Support Organization", #Migrated from Common Mapper
-    "Assignee Group":"Assignee Group", #Migrated from Common Mapper
-    "Assignee":"Assignee",  #Migrated from Common Mapper
-    "Customer Company":"Customer Company",  #Migrated from Common Mapper
-    "Customer Department":"Customer Department",  #Migrated from Common Mapper
-    "Customer First Name":"Customer First Name", #Migrated from Common Mapper
-    "Customer Internet E-mail":"Customer Internet E-mail",  #Migrated from Common Mapper
-    "Customer Last Name":"Customer Last Name",  #Migrated from Common Mapper
-    "Customer Organization":"Customer Organization",  #Migrated from Common Mapper
-    "Customer Phone Number":"Customer Phone Number", #Migrated from Common Mapper
+    "Assigned Group": "Assigned Group",  # Migrated from Common Mapper
+    "Assigned Support Company": "Assigned Support Company",  # Migrated from Common Mapper
+    "Assigned Support Organization": "Assigned Support Organization",  # Migrated from Common Mapper
+    "Assignee Group": "Assignee Group",  # Migrated from Common Mapper
+    "Assignee": "Assignee",  # Migrated from Common Mapper
+    "Customer Company": "Customer Company",  # Migrated from Common Mapper
+    "Customer Department": "Customer Department",  # Migrated from Common Mapper
+    "Customer First Name": "Customer First Name",  # Migrated from Common Mapper
+    "Customer Internet E-mail": "Customer Internet E-mail",  # Migrated from Common Mapper
+    "Customer Last Name": "Customer Last Name",  # Migrated from Common Mapper
+    "Customer Organization": "Customer Organization",  # Migrated from Common Mapper
+    "Customer Phone Number": "Customer Phone Number",  # Migrated from Common Mapper
     "Details": "Details",
     "Last Modified Date": "LastModifiedDate",
     "Next Target Date": "TargetDate",
     "Request Number": "DisplayID",
     "Request Type": "SubType",
-    "Request Type":"Request Type", #Migrated from Common Mapper
-    "Resolution":"Resolution", #Migrated from Common Mapper
+    "Request Type": "Request Type",  # Migrated from Common Mapper
+    "Resolution": "Resolution",  # Migrated from Common Mapper
     "Status_Reason": "StatusReason",
     "Status": "Status",
     "Submit Date": "CreateDate",
@@ -43,18 +43,18 @@ CHANGE_REQUEST_CONTEXT_MAPPER = {
     "Assigned To": "Assignee",
     "Change Request Status": "Status",
     "Change Type": "SubType",
-    "Customer Company":"Customer Company", #Migrated from Common Mapper
-    "Customer Department":"Customer Department", #Migrated from Common Mapper
-    "Customer First Name":"Customer First Name", #Migrated from Common Mapper
-    "Customer Internet E-mail":"Customer Internet E-mail", #Migrated from Common Mapper
-    "Customer Last Name":"Customer Last Name", #Migrated from Common Mapper
-    "Customer Organization":"Customer Organization", #Migrated from Common Mapper
-    "Customer Phone Number":"Customer Phone Number",#Migrated from Common Mapper
+    "Customer Company": "Customer Company",  # Migrated from Common Mapper
+    "Customer Department": "Customer Department",  # Migrated from Common Mapper
+    "Customer First Name": "Customer First Name",  # Migrated from Common Mapper
+    "Customer Internet E-mail": "Customer Internet E-mail",  # Migrated from Common Mapper
+    "Customer Last Name": "Customer Last Name",  # Migrated from Common Mapper
+    "Customer Organization": "Customer Organization",  # Migrated from Common Mapper
+    "Customer Phone Number": "Customer Phone Number",  # Migrated from Common Mapper
     "Description": "Summary",
     "Detailed Description": "Details",
     "Infrastructure Change ID": "DisplayID",
     "Last Modified Date": "LastModifiedDate",
-    "Next Target Date": "TargetDate", #TODO: This is not on ChangeReq
+    "Next Target Date": "TargetDate",  # TODO: This is not on ChangeReq
     "Reason For Change": "ReasonForChange",
     "Request ID": "RequestID",
     "Risk Level": "RiskLevel",
@@ -62,58 +62,58 @@ CHANGE_REQUEST_CONTEXT_MAPPER = {
     "Submit Date": "CreateDate",
 }
 INCIDENT_CONTEXT_MAPPER = {
-    "Assigned Group":"Assigned Group", #Migrated from Common Mapper
-    "Assigned Support Company":"Assigned Support Company", #Migrated from Common Mapper
-    "Assigned Support Organization":"Assigned Support Organization", #Migrated from Common Mapper
-    "Assignee":"Assignee",  #Migrated from Common Mapper
+    "Assigned Group": "Assigned Group",  # Migrated from Common Mapper
+    "Assigned Support Company": "Assigned Support Company",  # Migrated from Common Mapper
+    "Assigned Support Organization": "Assigned Support Organization",  # Migrated from Common Mapper
+    "Assignee": "Assignee",  # Migrated from Common Mapper
     "Categorization Tier 1": "OperationalCategory1",
     "Categorization Tier 2": "OperationalCategory2",
     "Categorization Tier 3": "OperationalCategory3",
-    "Company":"Company",
+    "Company": "Company",
     "Contact Sensitivity": "ContactSensitivity",
-    "Department":"Department",
+    "Department": "Department",
     "Description": "Summary",
     "Detailed Decription": "Details",  # The product has typo in the response
-    "Direct Contact Company":"Direct Contact Company",
-    "Direct Contact First Name":"Direct Contact First Name",
-    "Direct Contact Last Name":"Direct Contact Last Name",
-    "Direct Contact Region":"Direct Contact Region",
-    "Direct Contact Site Group":"Direct Contact Site Group",
-    "Direct Contact Site":"Direct Contact Site",
-    "Direct Contact Internet E-mail":"Direct Contact Internet E-mail",
-    "First Name":"First Name",
+    "Direct Contact Company": "Direct Contact Company",
+    "Direct Contact First Name": "Direct Contact First Name",
+    "Direct Contact Last Name": "Direct Contact Last Name",
+    "Direct Contact Region": "Direct Contact Region",
+    "Direct Contact Site Group": "Direct Contact Site Group",
+    "Direct Contact Site": "Direct Contact Site",
+    "Direct Contact Internet E-mail": "Direct Contact Internet E-mail",
+    "First Name": "First Name",
     "Incident Number": "DisplayID",
-    "Internet E-mail":"Internet E-mail",
+    "Internet E-mail": "Internet E-mail",
     "Last Modified Date": "LastModifiedDate",
-    "Last Name":"Last Name",
-    "Organization":"Organization",
-    "Phone Number":"Phone Number",
+    "Last Name": "Last Name",
+    "Organization": "Organization",
+    "Phone Number": "Phone Number",
     "Product Categorization Tier 1": "ProductCategory1",
     "Product Categorization Tier 2": "ProductCategory2",
     "Product Categorization Tier 3": "ProductCategory3",
     "Reported Source": "ReportedSource",
     "Request ID": "RequestID",
-    "Resolution":"Resolution", #Migrated from Common Mapper
+    "Resolution": "Resolution",  # Migrated from Common Mapper
     "Service Type": "SubType",
     "Status_Reason": "StatusReason",
     "Status": "Status",
     "Submit Date": "CreateDate",
     "Vendor Ticket Number": "VendorTicketNumber",
     "VIP": "VIP",
-    "Work Logs": "WorkLogs", #TODO: This is not included
+    "Work Logs": "WorkLogs",  # TODO: This is not included
 }
 
 TASK_CONTEXT_MAPPER = {
-    "Assignee Group":"Assignee Group",#Migrated from Common Mapper
-    "Assignee":"Assignee", #Migrated from Common Mapper
+    "Assignee Group": "Assignee Group",  # Migrated from Common Mapper
+    "Assignee": "Assignee",  # Migrated from Common Mapper
     "Create Date": "CreateDate",
-    "Customer Company":"Customer Company", #Migrated from Common Mapper
-    "Customer Department":"Customer Department", #Migrated from Common Mapper
-    "Customer First Name":"Customer First Name", #Migrated from Common Mapper
-    "Customer Internet E-mail":"Customer Internet E-mail", #Migrated from Common Mapper
-    "Customer Last Name":"Customer Last Name", #Migrated from Common Mapper
-    "Customer Organization":"Customer Organization", #Migrated from Common Mapper
-    "Customer Phone Number":"Customer Phone Number",#Migrated from Common Mapper
+    "Customer Company": "Customer Company",  # Migrated from Common Mapper
+    "Customer Department": "Customer Department",  # Migrated from Common Mapper
+    "Customer First Name": "Customer First Name",  # Migrated from Common Mapper
+    "Customer Internet E-mail": "Customer Internet E-mail",  # Migrated from Common Mapper
+    "Customer Last Name": "Customer Last Name",  # Migrated from Common Mapper
+    "Customer Organization": "Customer Organization",  # Migrated from Common Mapper
+    "Customer Phone Number": "Customer Phone Number",  # Migrated from Common Mapper
     "Modified Date": "LastModifiedDate",
     "Notes": "Details",
     "Scheduled End Date": "ScheduledEndDate",
@@ -122,7 +122,7 @@ TASK_CONTEXT_MAPPER = {
     "StatusReasonSelection": "StatusReason",
     "Summary": "Summary",
     "Task ID": "DisplayID",
-    "Task Interface ID": "RequestID", #TODO: this is not included
+    "Task Interface ID": "RequestID",  # TODO: this is not included
     "TaskType": "SubType",
 }
 
@@ -186,7 +186,7 @@ COMMON_PROPERTIES = [
     "Site",
     "Site Group",
     "Priority",
-    "Status-History", #TODO: Not on any?
+    "Status-History",  # TODO: Not on any?
 ]
 
 TICKET_TYPE_TO_LIST_FORM = {
@@ -3174,7 +3174,9 @@ def work_order_update_command(client: Client, args: Dict[str, Any]) -> CommandRe
     return command_results
 
 
-def format_command_output(records: List[dict], mapper: Dict[str, Any], ticket_type: str, context_data_arranger: Callable = None) -> Dict[str, Any]:
+def format_command_output(
+    records: List[dict], mapper: Dict[str, Any], ticket_type: str, context_data_arranger: Callable = None
+) -> Dict[str, Any]:
     """
     Format the returned records from the API according to the provided mapper.
     The main objective is to extract relevant attributes from the response to
@@ -3360,31 +3362,31 @@ def arrange_ticket_context_data(ticket: Dict[str, Any], ticket_type: str) -> Dic
     customer = {}
     requester = {}
     assignee = {}
-    customer_mapper = { #TODO: Customer fields change based on the Ticket Type. This should take that into account.
-                                                    # TASK      REQ     INC     CHG
-        "FirstName": "Customer First Name",         # C         C       raw     C
-        "LastName": "Customer Last Name",           # C         C       raw     C
-        "Company": "Customer Company",              # C         C       raw     C
-        "Organization": "Customer Organization",    # C         C       raw     C
-        "Department": "Customer Department",        # C         C       raw     C
-        "E-mail": "Customer Internet E-mail",       # raw       C       raw     C
-        "PhoneNumber": "Customer Phone Number",     # C         C       raw     C
+    customer_mapper = {  # TODO: Customer fields change based on the Ticket Type. This should take that into account.
+        # TASK      REQ     INC     CHG
+        "FirstName": "Customer First Name",  # C         C       raw     C
+        "LastName": "Customer Last Name",  # C         C       raw     C
+        "Company": "Customer Company",  # C         C       raw     C
+        "Organization": "Customer Organization",  # C         C       raw     C
+        "Department": "Customer Department",  # C         C       raw     C
+        "E-mail": "Customer Internet E-mail",  # raw       C       raw     C
+        "PhoneNumber": "Customer Phone Number",  # C         C       raw     C
     }
-        #TODO: On INC Customer -> Direct Contact
-    requester_mapper = {                # TASK      REQ     INC     CHG
-        "FirstName": "First Name",      # FN        FN      DC      FN
-        "LastName": "Last Name",        # LN        LN      DC      LN
-        "Company": "Company",           # C         C       DC      C
-        "Region": "Region",             # R         R       DC      R
-        "Site": "Site",                 # S         S       DC      S
-        "SiteGroup": "Site Group",      # SG        SG      DC      SG
+    # TODO: On INC Customer -> Direct Contact
+    requester_mapper = {  # TASK      REQ     INC     CHG
+        "FirstName": "First Name",  # FN        FN      DC      FN
+        "LastName": "Last Name",  # LN        LN      DC      LN
+        "Company": "Company",  # C         C       DC      C
+        "Region": "Region",  # R         R       DC      R
+        "Site": "Site",  # S         S       DC      S
+        "SiteGroup": "Site Group",  # SG        SG      DC      SG
     }
-    assignee_mapper = {                                             # TASK      REQ     INC             CHG
-        "FullName": "Assignee",                                    # raw       raw     raw             ASCHG
-        "Group": "Assignee Group",                                  # raw       raw     assigned group  ASGRP
-        "SupportOrganization": "Assigned Support Organization",     # asseeorg  raw     raw             ASORG
-        "SupportCompany": "Assigned Support Company",               # comp      raw     raw             ASCPY
-        "AssignedGroup": "Assigned Group",                          # asseegrp  raw     raw             ASGRP
+    assignee_mapper = {  # TASK      REQ     INC             CHG
+        "FullName": "Assignee",  # raw       raw     raw             ASCHG
+        "Group": "Assignee Group",  # raw       raw     assigned group  ASGRP
+        "SupportOrganization": "Assigned Support Organization",  # asseeorg  raw     raw             ASORG
+        "SupportCompany": "Assigned Support Company",  # comp      raw     raw             ASCPY
+        "AssignedGroup": "Assigned Group",  # asseegrp  raw     raw             ASGRP
     }
     # This is a bit of a cludge but should allow for easier overwriting.
     match ticket_type:
@@ -3397,14 +3399,14 @@ def arrange_ticket_context_data(ticket: Dict[str, Any], ticket_type: str) -> Dic
             pass
         case "incident":
             customer_mapper = {
-                    "FirstName": "First Name",
-                    "LastName": "Last Name",
-                    "Company": "Company",
-                    "Organization": "Organization",
-                    "Department": "Department",
-                    "E-mail": "Internet E-mail",
-                    "PhoneNumber": "Phone Number",
-                }
+                "FirstName": "First Name",
+                "LastName": "Last Name",
+                "Company": "Company",
+                "Organization": "Organization",
+                "Department": "Department",
+                "E-mail": "Internet E-mail",
+                "PhoneNumber": "Phone Number",
+            }
             requester_mapper = {
                 "FirstName": "Direct Contact First Name",
                 "LastName": "Direct Contact Last Name",
@@ -3752,10 +3754,7 @@ def fetch_relevant_tickets_by_ticket_type(
 
     relevant_records, _ = get_paginated_records_with_hr(response.get("entries"), max_fetch)  # type: ignore[arg-type]
     outputs: List[dict] = format_command_output(  # type: ignore[assignment]
-        deepcopy(relevant_records),
-        generate_ticket_context_data_mapper(ticket_type),
-        ticket_type,
-        arrange_ticket_context_data
+        deepcopy(relevant_records), generate_ticket_context_data_mapper(ticket_type), ticket_type, arrange_ticket_context_data
     )
     return outputs
 
