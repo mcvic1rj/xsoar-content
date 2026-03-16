@@ -92,7 +92,7 @@
             "selectValues": null
         },
         {
-            "key": "Email",
+            "key": "E-mail",
             "displayName": "E-mail",
             "type": "shortText",
             "orgType": "shortText",
