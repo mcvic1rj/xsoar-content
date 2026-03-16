@@ -30,7 +30,6 @@ SERVICE_REQUEST_CONTEXT_MAPPER = {
     "Last Modified Date": "LastModifiedDate",
     "Next Target Date": "TargetDate",
     "Request Number": "DisplayID",
-    "Request Type": "SubType",
     "Request Type": "Request Type",  # Migrated from Common Mapper
     "Resolution": "Resolution",  # Migrated from Common Mapper
     "Status_Reason": "StatusReason",
