@@ -80,6 +80,7 @@ INCIDENT_CONTEXT_MAPPER = {
     "Direct Contact Region":"Direct Contact Region",
     "Direct Contact Site Group":"Direct Contact Site Group",
     "Direct Contact Site":"Direct Contact Site",
+    "Direct Contact Internet E-mail":"Direct Contact Internet E-mail",
     "First Name":"First Name",
     "Incident Number": "DisplayID",
     "Internet E-mail":"Internet E-mail",
@@ -3411,6 +3412,7 @@ def arrange_ticket_context_data(ticket: Dict[str, Any], ticket_type: str) -> Dic
                 "Region": "Direct Contact Region",
                 "Site": "Direct Contact Site",
                 "SiteGroup": "Direct Contact Site Group",
+                "E-mail": "Direct Contact Internet E-mail",
             }
             assignee_mapper["AssignedGroup"] = "Assigned Group"
             assignee_mapper["Group"] = "Assigned Group"

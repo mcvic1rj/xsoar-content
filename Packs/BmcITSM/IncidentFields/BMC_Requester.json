@@ -53,6 +53,19 @@
             "selectValues": null
         },
         {
+            "key": "E-mail",
+            "displayName": "E-mail",
+            "type": "shortText",
+            "orgType": "shortText",
+            "required": false,
+            "script": "",
+            "width": 150,
+            "isDefault": true,
+            "fieldCalcScript": "",
+            "isReadOnly": false,
+            "selectValues": null
+        },
+        {
             "key": "Company",
             "displayName": "Company",
             "type": "shortText",
