@@ -53,7 +53,7 @@ CHANGE_REQUEST_CONTEXT_MAPPER = {
     "Detailed Description": "Details",
     "Infrastructure Change ID": "DisplayID",
     "Last Modified Date": "LastModifiedDate",
-    "Next Target Date": "TargetDate",  # TODO: This is not on ChangeReq
+    "Next Target Date": "TargetDate",
     "Reason For Change": "ReasonForChange",
     "Request ID": "RequestID",
     "Risk Level": "RiskLevel",
@@ -99,7 +99,7 @@ INCIDENT_CONTEXT_MAPPER = {
     "Submit Date": "CreateDate",
     "Vendor Ticket Number": "VendorTicketNumber",
     "VIP": "VIP",
-    "Work Logs": "WorkLogs",  # TODO: This is not included
+    "Work Logs": "WorkLogs",
 }
 
 TASK_CONTEXT_MAPPER = {
@@ -121,7 +121,7 @@ TASK_CONTEXT_MAPPER = {
     "StatusReasonSelection": "StatusReason",
     "Summary": "Summary",
     "Task ID": "DisplayID",
-    "Task Interface ID": "RequestID",  # TODO: this is not included
+    "Task Interface ID": "RequestID",
     "TaskType": "SubType",
 }
 
@@ -185,7 +185,7 @@ COMMON_PROPERTIES = [
     "Site",
     "Site Group",
     "Priority",
-    "Status-History",  # TODO: Not on any?
+    "Status-History",
 ]
 
 TICKET_TYPE_TO_LIST_FORM = {
@@ -3174,7 +3174,7 @@ def work_order_update_command(client: Client, args: Dict[str, Any]) -> CommandRe
 
 
 def format_command_output(
-    records: List[dict], mapper: Dict[str, Any], ticket_type: str, context_data_arranger: Callable = None
+    records: List[dict], mapper: Dict[str, Any], ticket_type: Optional[str], context_data_arranger: Callable = None
 ) -> Dict[str, Any]:
     """
     Format the returned records from the API according to the provided mapper.
@@ -3348,7 +3348,7 @@ def extract_args_from_additional_fields_arg(additional_fields: str, field_name: 
     return formatted_additional_fields  # type: ignore[return-value]
 
 
-def arrange_ticket_context_data(ticket: Dict[str, Any], ticket_type: str) -> Dict[str, Any]:
+def arrange_ticket_context_data(ticket: Dict[str, Any], ticket_type: Optional[str]) -> Dict[str, Any]:
     """
     Arranges the ticket context data.
 
@@ -3361,33 +3361,30 @@ def arrange_ticket_context_data(ticket: Dict[str, Any], ticket_type: str) -> Dic
     customer = {}
     requester = {}
     assignee = {}
-    customer_mapper = {  # TODO: Customer fields change based on the Ticket Type. This should take that into account.
-        # TASK      REQ     INC     CHG
-        "FirstName": "Customer First Name",  # C         C       raw     C
-        "LastName": "Customer Last Name",  # C         C       raw     C
-        "Company": "Customer Company",  # C         C       raw     C
-        "Organization": "Customer Organization",  # C         C       raw     C
-        "Department": "Customer Department",  # C         C       raw     C
-        "E-mail": "Customer Internet E-mail",  # raw       C       raw     C
-        "PhoneNumber": "Customer Phone Number",  # C         C       raw     C
+    customer_mapper = {  # Customer fields change based on the Ticket Type. This should take that into account.
+        "FirstName": "Customer First Name",
+        "LastName": "Customer Last Name",
+        "Company": "Customer Company",
+        "Organization": "Customer Organization",
+        "Department": "Customer Department",
+        "E-mail": "Customer Internet E-mail",
+        "PhoneNumber": "Customer Phone Number",
     }
-    # TODO: On INC Customer -> Direct Contact
-    requester_mapper = {  # TASK      REQ     INC     CHG
-        "FirstName": "First Name",  # FN        FN      DC      FN
-        "LastName": "Last Name",  # LN        LN      DC      LN
-        "Company": "Company",  # C         C       DC      C
-        "Region": "Region",  # R         R       DC      R
-        "Site": "Site",  # S         S       DC      S
-        "SiteGroup": "Site Group",  # SG        SG      DC      SG
+    requester_mapper = {
+        "FirstName": "First Name",
+        "LastName": "Last Name",
+        "Company": "Company",
+        "Region": "Region",
+        "Site": "Site",
+        "SiteGroup": "Site Group",
     }
-    assignee_mapper = {  # TASK      REQ     INC             CHG
-        "FullName": "Assignee",  # raw       raw     raw             ASCHG
-        "Group": "Assignee Group",  # raw       raw     assigned group  ASGRP
-        "SupportOrganization": "Assigned Support Organization",  # asseeorg  raw     raw             ASORG
-        "SupportCompany": "Assigned Support Company",  # comp      raw     raw             ASCPY
-        "AssignedGroup": "Assigned Group",  # asseegrp  raw     raw             ASGRP
+    assignee_mapper = {
+        "FullName": "Assignee",
+        "Group": "Assignee Group",
+        "SupportOrganization": "Assigned Support Organization",
+        "SupportCompany": "Assigned Support Company",
+        "AssignedGroup": "Assigned Group",
     }
-    # This is a bit of a cludge but should allow for easier overwriting.
     match ticket_type:
         case "task":
             customer_mapper["E-mail"] = "Internet E-mail"
