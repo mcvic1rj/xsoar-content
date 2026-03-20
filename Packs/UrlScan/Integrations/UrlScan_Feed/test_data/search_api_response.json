@@ -25,10 +25,10 @@
             },
             "dom": {
                 "size": 162727,
-                "hash": "fff8fb1cc6a9225adf6e0beb322ddb2e3aa3db9d0ee5d4dac905353501d10bac"
+                "hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
             },
             "visible": {
-                "brandname": "Michigan Department of State"
+                "brandname": "Department of Departments"
             },
             "frames": {
                 "length": 1
@@ -36,24 +36,24 @@
             "usertags": [],
             "canonical": {
                 "task": {
-                    "url": "michigan.gov-kon.cc/sos"
+                    "url": "department.department-kon.cc/sos"
                 },
                 "page": {
-                    "url": "michigan.gov-kon.cc/sos"
+                    "url": "department.department-kon.cc/sos"
                 }
             },
-            "screenshot": "https://urlscan.io/screenshots/019cf93a-9351-70d0-bc32-334f9157ddf1.png",
+            "screenshot": "https://urlscan.io/screenshots/11111111-2222-3333-4444-555555555555.png",
             "labels": [
                 "visual.brandai"
             ],
             "task": {
                 "visibility": "unlisted",
                 "method": "api",
-                "domain": "michigan.gov-kon.cc",
-                "apexDomain": "gov-kon.cc",
+                "domain": "department.department-kon.cc",
+                "apexDomain": "department-kon.cc",
                 "time": "2026-03-17T00:38:23.327Z",
-                "uuid": "019cf93a-9351-70d0-bc32-334f9157ddf1",
-                "url": "https://michigan.gov-kon.cc/sos?var=ERCVOaIuMC",
+                "uuid": "11111111-2222-3333-4444-555555555555",
+                "url": "https://department.department-kon.cc/sos?var=ERCVOaIuMC",
                 "tags": [
                     "dragonfire",
                     "sms",
@@ -82,13 +82,13 @@
                 "apexDomainAgeDays": 19,
                 "language": "en",
                 "mimeType": "text/html",
-                "url": "https://michigan.gov-kon.cc/sos/",
+                "url": "https://department.department-kon.cc/sos/",
                 "tlsValidDays": 89,
                 "tlsAgeDays": 18,
                 "domainAgeDays": 19,
                 "tlsValidFrom": "2026-02-26T11:11:10.000Z",
-                "domain": "michigan.gov-kon.cc",
-                "apexDomain": "gov-kon.cc",
+                "domain": "department.department-kon.cc",
+                "apexDomain": "department-kon.cc",
                 "asnname": "ALIBABA-CN-NET Alibaba US Technology Co., Ltd., CN",
                 "asn": "AS45102",
                 "tlsIssuer": "R13",
@@ -96,34 +96,34 @@
             },
             "text": {
                 "size": 20357,
-                "hash": "f5c3d899326d73b4fc8d296152ef0fbfe9ce58ae82079873b7fd71f6926d2a69"
+                "hash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
             },
             "brand": [
                 {
                     "country": [
                         "us"
                     ],
-                    "name": "Michigan Government",
+                    "name": "department Government",
                     "vertical": [
                         "Government"
                     ],
-                    "key": "govmichigan"
+                    "key": "govdepartment"
                 }
             ],
-            "_id": "019cf93a-9351-70d0-bc32-334f9157ddf1",
+            "_id": "11111111-2222-3333-4444-555555555555",
             "_score": null,
             "sort": [
                 1773707903327,
-                "019cf93a-9351-70d0-bc32-334f9157ddf1"
+                "11111111-2222-3333-4444-555555555555"
             ],
             "image": {
                 "size": 170052,
                 "width": 1600,
-                "hash": "8c274f9736679a3a9846580e2f049976ec52d60baa5e24d316cb1fbc8774fe74",
+                "hash": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
                 "height": 1200,
                 "aspectratio": 1.33
             },
-            "result": "https://urlscan.io/api/v1/result/019cf93a-9351-70d0-bc32-334f9157ddf1/"
+            "result": "https://urlscan.io/api/v1/result/11111111-2222-3333-4444-555555555555/"
         },
         {
             "verdicts": {
@@ -150,10 +150,10 @@
             },
             "dom": {
                 "size": 162716,
-                "hash": "d9d7d6c0124608dd7f62df68e05658f3f04ef542665815b2e5e1a49ba2c1c76a"
+                "hash": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
             },
             "visible": {
-                "brandname": "Michigan Department of State"
+                "brandname": "Department of Departments"
             },
             "frames": {
                 "length": 1
@@ -161,24 +161,24 @@
             "usertags": [],
             "canonical": {
                 "task": {
-                    "url": "michigan.gov-kod.cc/sos"
+                    "url": "department.department-kod.cc/sos"
                 },
                 "page": {
-                    "url": "michigan.gov-kod.cc/sos"
+                    "url": "department.department-kod.cc/sos"
                 }
             },
-            "screenshot": "https://urlscan.io/screenshots/019cf93a-77ee-76ca-bc8e-f668a273f71b.png",
+            "screenshot": "https://urlscan.io/screenshots/66666666-7777-8888-9999-000000000000.png",
             "labels": [
                 "visual.brandai"
             ],
             "task": {
                 "visibility": "unlisted",
                 "method": "api",
-                "domain": "michigan.gov-kod.cc",
-                "apexDomain": "gov-kod.cc",
+                "domain": "department.department-kod.cc",
+                "apexDomain": "department-kod.cc",
                 "time": "2026-03-17T00:38:15.002Z",
-                "uuid": "019cf93a-77ee-76ca-bc8e-f668a273f71b",
-                "url": "https://michigan.gov-kod.cc/sos?var=WjSILLVmHE",
+                "uuid": "66666666-7777-8888-9999-000000000000",
+                "url": "https://department.department-kod.cc/sos?var=WjSILLVmHE",
                 "tags": [
                     "dragonfire",
                     "sms",
@@ -207,13 +207,13 @@
                 "apexDomainAgeDays": 19,
                 "language": "en",
                 "mimeType": "text/html",
-                "url": "https://michigan.gov-kod.cc/sos/",
+                "url": "https://department.department-kod.cc/sos/",
                 "tlsValidDays": 89,
                 "tlsAgeDays": 18,
                 "domainAgeDays": 19,
                 "tlsValidFrom": "2026-02-26T11:11:01.000Z",
-                "domain": "michigan.gov-kod.cc",
-                "apexDomain": "gov-kod.cc",
+                "domain": "department.department-kod.cc",
+                "apexDomain": "department-kod.cc",
                 "asnname": "ALIBABA-CN-NET Alibaba US Technology Co., Ltd., CN",
                 "asn": "AS45102",
                 "tlsIssuer": "R12",
@@ -221,34 +221,34 @@
             },
             "text": {
                 "size": 20357,
-                "hash": "f5c3d899326d73b4fc8d296152ef0fbfe9ce58ae82079873b7fd71f6926d2a69"
+                "hash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
             },
             "brand": [
                 {
                     "country": [
                         "us"
                     ],
-                    "name": "Michigan Government",
+                    "name": "department Government",
                     "vertical": [
                         "Government"
                     ],
-                    "key": "govmichigan"
+                    "key": "govdepartment"
                 }
             ],
-            "_id": "019cf93a-77ee-76ca-bc8e-f668a273f71b",
+            "_id": "66666666-7777-8888-9999-000000000000",
             "_score": null,
             "sort": [
                 1773707895002,
-                "019cf93a-77ee-76ca-bc8e-f668a273f71b"
+                "66666666-7777-8888-9999-000000000000"
             ],
             "image": {
                 "size": 170052,
                 "width": 1600,
-                "hash": "8c274f9736679a3a9846580e2f049976ec52d60baa5e24d316cb1fbc8774fe74",
+                "hash": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
                 "height": 1200,
                 "aspectratio": 1.33
             },
-            "result": "https://urlscan.io/api/v1/result/019cf93a-77ee-76ca-bc8e-f668a273f71b/"
+            "result": "https://urlscan.io/api/v1/result/66666666-7777-8888-9999-000000000000/"
         },
         {
             "verdicts": {
@@ -275,10 +275,10 @@
             },
             "dom": {
                 "size": 162736,
-                "hash": "1674ec8724264dc43f43c4820ab7bd2c61a73785db47ecafe86cbff822ce328f"
+                "hash": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
             },
             "visible": {
-                "brandname": "Michigan Department of State"
+                "brandname": "Department of Departments"
             },
             "frames": {
                 "length": 1
@@ -286,24 +286,24 @@
             "usertags": [],
             "canonical": {
                 "task": {
-                    "url": "michigan.gov-kob.cc/sos"
+                    "url": "department.department-kob.cc/sos"
                 },
                 "page": {
-                    "url": "michigan.gov-kob.cc/sos"
+                    "url": "department.department-kob.cc/sos"
                 }
             },
-            "screenshot": "https://urlscan.io/screenshots/019cf93a-603f-77be-933c-026b66634aa1.png",
+            "screenshot": "https://urlscan.io/screenshots/99999999-aaaa-bbbb-cccc-dddddddddddd.png",
             "labels": [
                 "visual.brandai"
             ],
             "task": {
                 "visibility": "unlisted",
                 "method": "api",
-                "domain": "michigan.gov-kob.cc",
-                "apexDomain": "gov-kob.cc",
+                "domain": "department.department-kob.cc",
+                "apexDomain": "department-kob.cc",
                 "time": "2026-03-17T00:38:09.978Z",
-                "uuid": "019cf93a-603f-77be-933c-026b66634aa1",
-                "url": "https://michigan.gov-kob.cc/sos?var=LgGwZnWDPS",
+                "uuid": "99999999-aaaa-bbbb-cccc-dddddddddddd",
+                "url": "https://department.department-kob.cc/sos?var=LgGwZnWDPS",
                 "tags": [
                     "dragonfire",
                     "sms",
@@ -332,13 +332,13 @@
                 "apexDomainAgeDays": 19,
                 "language": "en",
                 "mimeType": "text/html",
-                "url": "https://michigan.gov-kob.cc/sos/",
+                "url": "https://department.department-kob.cc/sos/",
                 "tlsValidDays": 89,
                 "tlsAgeDays": 18,
                 "domainAgeDays": 19,
                 "tlsValidFrom": "2026-02-26T11:11:35.000Z",
-                "domain": "michigan.gov-kob.cc",
-                "apexDomain": "gov-kob.cc",
+                "domain": "department.department-kob.cc",
+                "apexDomain": "department-kob.cc",
                 "asnname": "ALIBABA-CN-NET Alibaba US Technology Co., Ltd., CN",
                 "asn": "AS45102",
                 "tlsIssuer": "R12",
@@ -346,34 +346,34 @@
             },
             "text": {
                 "size": 20357,
-                "hash": "f5c3d899326d73b4fc8d296152ef0fbfe9ce58ae82079873b7fd71f6926d2a69"
+                "hash": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
             },
             "brand": [
                 {
                     "country": [
                         "us"
                     ],
-                    "name": "Michigan Government",
+                    "name": "department Government",
                     "vertical": [
                         "Government"
                     ],
-                    "key": "govmichigan"
+                    "key": "govdepartment"
                 }
             ],
-            "_id": "019cf93a-603f-77be-933c-026b66634aa1",
+            "_id": "99999999-aaaa-bbbb-cccc-dddddddddddd",
             "_score": null,
             "sort": [
                 1773707889978,
-                "019cf93a-603f-77be-933c-026b66634aa1"
+                "99999999-aaaa-bbbb-cccc-dddddddddddd"
             ],
             "image": {
                 "size": 170052,
                 "width": 1600,
-                "hash": "8c274f9736679a3a9846580e2f049976ec52d60baa5e24d316cb1fbc8774fe74",
+                "hash": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
                 "height": 1200,
                 "aspectratio": 1.33
             },
-            "result": "https://urlscan.io/api/v1/result/019cf93a-603f-77be-933c-026b66634aa1/"
+            "result": "https://urlscan.io/api/v1/result/99999999-aaaa-bbbb-cccc-dddddddddddd/"
         }
     ],
     "total": 3,
