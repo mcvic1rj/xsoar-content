@@ -1,0 +1,17 @@
+[
+            {
+                "value": "https://michigan.gov-kon.cc/sos/",
+                "type": "URL",
+                "service": "UrlScanFeed"
+            },
+            {
+                "value": "https://michigan.gov-kod.cc/sos/",
+                "type": "URL",
+                "service": "UrlScanFeed"
+            },
+            {
+                "value": "https://michigan.gov-kob.cc/sos/",
+                "type": "URL",
+                "service": "UrlScanFeed"
+            }
+        ]
